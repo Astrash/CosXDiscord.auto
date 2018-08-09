@@ -1,0 +1,14 @@
+C:\Users\Nithzer\source\repos\CosXDiscord.auto\CosXDiscord.auto\obj\Debug\CosXDiscord.auto.csproj.CoreCompileInputs.cache
+C:\Users\Nithzer\source\repos\CosXDiscord.auto\CosXDiscord.auto\bin\Debug\CosXDiscord.auto.dll
+C:\Users\Nithzer\source\repos\CosXDiscord.auto\CosXDiscord.auto\bin\Debug\CosXDiscord.auto.pdb
+C:\Users\Nithzer\source\repos\CosXDiscord.auto\CosXDiscord.auto\bin\Debug\InfinityScript.dll
+C:\Users\Nithzer\source\repos\CosXDiscord.auto\CosXDiscord.auto\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Nithzer\source\repos\CosXDiscord.auto\CosXDiscord.auto\bin\Debug\SuperSocket.ClientEngine.dll
+C:\Users\Nithzer\source\repos\CosXDiscord.auto\CosXDiscord.auto\bin\Debug\SuperSocket.ProtoBase.dll
+C:\Users\Nithzer\source\repos\CosXDiscord.auto\CosXDiscord.auto\bin\Debug\websocket-sharp.dll
+C:\Users\Nithzer\source\repos\CosXDiscord.auto\CosXDiscord.auto\bin\Debug\WebSocket4Net.dll
+C:\Users\Nithzer\source\repos\CosXDiscord.auto\CosXDiscord.auto\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Nithzer\source\repos\CosXDiscord.auto\CosXDiscord.auto\obj\Debug\CosXDiscord.auto.dll
+C:\Users\Nithzer\source\repos\CosXDiscord.auto\CosXDiscord.auto\obj\Debug\CosXDiscord.auto.pdb
+C:\Users\Nithzer\source\repos\CosXDiscord.auto\CosXDiscord.auto\obj\Debug\CosXDiscord.auto.csprojAssemblyReference.cache
+C:\Users\Nithzer\source\repos\CosXDiscord.auto\CosXDiscord.auto\obj\Debug\CosXDiscord.auto.csproj.CopyComplete

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D15EF960-65C5-45F3-A2EB-D138FFF71F1C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CosXDiscord.auto</RootNamespace>
+    <AssemblyName>CosXDiscord.auto</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="InfinityScript">
+      <HintPath>D:\Games\Call of Duty Modern Warfare 3\Call of Duty Modern Warfare 3 - Plutonium - Copie\InfinityScript.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>D:\Games\Call of Duty Modern Warfare 3\Call of Duty Modern Warfare 3 - Plutonium - Copie\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.ClientEngine">
+      <HintPath>D:\Games\Call of Duty Modern Warfare 3\Call of Duty Modern Warfare 3 - Plutonium - Copie\SuperSocket.ClientEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.ProtoBase">
+      <HintPath>D:\Games\Call of Duty Modern Warfare 3\Call of Duty Modern Warfare 3 - Plutonium - Copie\SuperSocket.ProtoBase.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="websocket-sharp">
+      <HintPath>D:\Games\Call of Duty Modern Warfare 3\Call of Duty Modern Warfare 3 - Plutonium - Copie\websocket-sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="WebSocket4Net">
+      <HintPath>D:\Games\Call of Duty Modern Warfare 3\Call of Duty Modern Warfare 3 - Plutonium - Copie\WebSocket4Net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CosX\DiscordClient.cs" />
+    <Compile Include="CosX\Extensions\CollectionExtensions.cs" />
+    <Compile Include="CosX\Extensions\DynamicExtensions.cs" />
+    <Compile Include="CosX\Extensions\ReflectionExtensions.cs" />
+    <Compile Include="CosX\Http\HttpFieldAttribute.cs" />
+    <Compile Include="CosX\Http\HttpManager.cs" />
+    <Compile Include="CosX\Http\Messages\CreateMessage.cs" />
+    <Compile Include="CosX\Http\Messages\DefaultMessage.cs" />
+    <Compile Include="CosX\MessageDefinition.cs" />
+    <Compile Include="CosX\MessageInitializer.cs" />
+    <Compile Include="CosX\WebSockets\Handler\DiscordHandlerAttribute.cs" />
+    <Compile Include="CosX\WebSockets\Handler\DiscordHandlerContener.cs" />
+    <Compile Include="CosX\WebSockets\Handler\HandlerManager.cs" />
+    <Compile Include="CosX\WebSockets\Handler\Handlers\ConnectionHandler.cs" />
+    <Compile Include="CosX\WebSockets\Messages\BaseMessage.cs" />
+    <Compile Include="CosX\WebSockets\Messages\DispatchMessage.cs" />
+    <Compile Include="CosX\WebSockets\Messages\Enums\ActivityType.cs" />
+    <Compile Include="CosX\WebSockets\Messages\Enums\GatewayOpCode.cs" />
+    <Compile Include="CosX\WebSockets\Messages\HelloMessage.cs" />
+    <Compile Include="CosX\WebSockets\Messages\IdentifyMessage.cs" />
+    <Compile Include="CosX\WebSockets\Messages\Types\Activity.cs" />
+    <Compile Include="CosX\WebSockets\Messages\Types\ActivityAssets.cs" />
+    <Compile Include="CosX\WebSockets\Messages\Types\ActivityParty.cs" />
+    <Compile Include="CosX\WebSockets\Messages\Types\ActivityTimestamps.cs" />
+    <Compile Include="CosX\WebSockets\Messages\Types\DiscordMessage.cs" />
+    <Compile Include="CosX\WebSockets\Messages\Types\DiscordUser.cs" />
+    <Compile Include="CosX\WebSockets\Messages\Types\IdentifyConnection.cs" />
+    <Compile Include="CosX\WebSockets\Messages\Types\PartySizeInfo.cs" />
+    <Compile Include="CosX\WebSockets\Messages\Types\ShardInfo.cs" />
+    <Compile Include="CosX\WebSockets\Messages\UpdatePresenceMessage.cs" />
+    <Compile Include="Discord.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
